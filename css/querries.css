@@ -1,0 +1,91 @@
+/* ***************************** */
+/* tablet */
+/* ***************************** */
+
+@media (min-width: 48rem) {
+  /* body */
+  body {
+    min-height: 100vh;
+    place-content: center;
+    padding: 3rem;
+  }
+
+  /* container */
+  .container {
+    max-width: 50rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+  }
+
+  /* form section */
+  .form-section {
+    padding: 2.5rem;
+  }
+
+  /* header */
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    align-items: center;
+  }
+
+  /* form */
+  .term-interest-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .calculate-btn {
+    max-width: 17.5rem;
+  }
+
+  /* result section */
+  .result-section {
+    border-radius: 0 0 1.25rem 1.25rem;
+  }
+
+  /* result-container */
+  .result-container {
+    padding: 2.5rem;
+  }
+
+  .results {
+    padding: 2rem 2.25rem;
+    margin-top: 2.5rem;
+  }
+
+  .monthly-result {
+    margin-bottom: 1.25rem;
+  }
+
+  .monthly-result div {
+    font-size: 3.75rem;
+  }
+
+  .total-result {
+    padding-top: 2rem;
+    border-top: 2px solid var(--slate-700);
+  }
+}
+
+@media (min-width: 69rem) {
+  /* container */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 67.5rem;
+    max-width: 67.5rem;
+  }
+
+  /* result section */
+  .result-section {
+    border-radius: 0 1.25rem 1.25rem  5rem;
+  }
+
+  /* empty container */
+  .empty-container {
+    justify-content: center;
+    height: 100%;
+    padding: 2.5rem;
+  }
+}
